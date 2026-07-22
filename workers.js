@@ -3,7 +3,7 @@ const httpProxy = require("http-proxy");
 
 const proxy = httpProxy.createProxyServer({
     ws: true,
-    changeOrigin: true
+    changeOrigin: false
 });
 
 const routes = {
