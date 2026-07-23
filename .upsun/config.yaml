@@ -11,4 +11,6 @@ routes:
   'https://{default}/':
     type: upstream
     upstream: 'myapp:http'
-
+    # Désactive le buffering d'Upsun pour autoriser les WebSockets
+    cache:
+      enabled: false
