@@ -11,9 +11,9 @@ const routes = {
     "/vps1/vmess-ws": "http://169.58.232.36:10002",
     "/vps1/trojan-ws": "http://169.58.232.36:10003",
 
-    "/vps2/vless-ws": "http://81.17.99.235:10001",
-    "/vps2/vmess-ws": "http://81.17.99.235:10002",
-    "/vps2/trojan-ws": "http://81.17.99.235:10003"
+    "/vps1/vless-ws": "http://151.245.195.112:10001",
+    "/vmess-ws": "http://151.245.195.112:10002",
+    "/trojan-ws": "http://151.245.195.112:10003"
 };
 
 function getTarget(url) {
